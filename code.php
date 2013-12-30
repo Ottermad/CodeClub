@@ -1,6 +1,6 @@
 <?php $pagetitle = "Code"; include('inc/header.php'); ?>
 
-	<h1>Our Code</h1>
+	<h1 class="main-heading">Our Code:</h1>
 	<p>On this page you will find some of our best programs which you can downlaod but beware that some may require some extra software.</p>
 	<div class="row">
 		<table class="table table-hover table-responsive">

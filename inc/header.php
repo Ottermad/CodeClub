@@ -14,12 +14,35 @@
 </head>
 
 <body>
+<div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SHS Code Club</a>
+              </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="about.php">About</a></li>
+                  <li><a href="code.php" >Code</a></li>
+                  <li><a href="resources.php" >Resouces</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
 	<div class="container">
 		<header class="page-header">
-        	<ul class="nav nav-pills pull-right">
+        	<ul class="nav nav-pills pull-right hidden-xs">
         		<li class="<?php if ($pagetitle == "Home") { echo "active";}?>"><a href="index.php">Home</a></li>
           	 	<li class="<?php if ($pagetitle == "About") { echo "active";}?>"><a href="about.php"  >About</a></li>
           		<li class="<?php if ($pagetitle == "Code") { echo "active";}?>"><a href="code.php" >Code</a></li>
+              <li class="<?php if ($pagetitle == "Resources") { echo "active";}?>"><a href="resources.php" >Resouces</a></li>
         	</ul>
-           <h3>SHS Code Club</h3>
+          <h3 class="hidden-xs">SHS Code Club</h3>
+
     	</header>
